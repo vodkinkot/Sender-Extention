@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sender</title>
+    <meta charset="utf-8">
+
+    <!--ссылаемся на шрифты, используемые в документе-->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css">
+    <!--здесь мы ссылаемся на стили, которые будем использовать в документе, а именно стиль иконок-->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+          crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+
+<div class="container">
+    <span class="pageStatus" ></span>
+    <input type="file" name="csv" class="upload_csv" placeholder="Upload your CSV file " accept=".csv"/>
+    <input type="text" name="message" id="message_text" placeholder="Enter your message here">
+    <br>
+    <button class="button" id="send" type="submit">Make History</button>
+
+    <br>
+<!--    <button class="button" id="close" type="submit">Close Tabs</button>-->
+</div>
+
+
+
+<script src="script.js"></script>
+<!--<script src="content_script.js"></script>-->
+</body>
+</html>
